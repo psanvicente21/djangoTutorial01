@@ -10,7 +10,6 @@ from django.urls import reverse
 
 from .models import Question
 
-
 class QuestionModelTests(TestCase):
     def test_was_published_recently_with_future_question(self):
         """
