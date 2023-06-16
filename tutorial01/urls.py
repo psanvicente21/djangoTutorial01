@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 <<<<<<< HEAD
+<<<<<<< HEAD
 from django.urls import include, path
 
 urlpatterns = [
@@ -25,5 +26,11 @@ from django.urls import path
 
 urlpatterns = [
 >>>>>>> 5562b15 (Revert "Revert "First commit after Django APP Creation"")
+=======
+from django.urls import include, path
+
+urlpatterns = [
+    path("polls/", include("polls.urls")),
+>>>>>>> 2ab3ac551ecde50528c8be5c880dd0dfe87e675b
     path('admin/', admin.site.urls),
 ]

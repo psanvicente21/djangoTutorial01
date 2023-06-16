@@ -1,5 +1,0 @@
-- Utilice vistas genéricas: menos código es mejor
-- Modifique el URLconf
-https://docs.djangoproject.com/es/4.2/intro/tutorial04/
-
-#https://docs.djangoproject.com/es/4.2/topics/testing/tools/
