@@ -31,7 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     "polls.apps.PollsConfig",
+=======
+>>>>>>> 5562b15 (Revert "Revert "First commit after Django APP Creation"")
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
